@@ -5,6 +5,7 @@ line = input()
 while line != 'Complete':
     args = line.split()
     command = args[0]
+
     if line == 'Make Upper':
         email = email.upper()
         print(email)
